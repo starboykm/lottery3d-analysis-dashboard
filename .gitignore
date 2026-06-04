@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Runtime logs and process files
+*.log
+*.pid
+*.job
+dashboard.out.log
+dashboard.err.log
+dashboard.log
+dashboard.pid
+dashboard.job
+
+# Generated prediction and settlement records
+records/
+backtest.json
+model_snapshot.json
+
+# Local editor / OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
